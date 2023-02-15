@@ -1,0 +1,12 @@
+name: "@foo"
+description: ""
+namespace: "Foo\\"
+
+export:
+
+force-internal:
+
+require:
+  - "@baz"
+
+allow-internal-access:

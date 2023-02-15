@@ -1,0 +1,14 @@
+name: "@baz"
+description: ""
+namespace: "Baz\\"
+
+export:
+
+force-internal:
+
+require:
+
+
+allow-internal-access:
+  "\\Foo\\Foo::foo()":
+    - "Baz"
